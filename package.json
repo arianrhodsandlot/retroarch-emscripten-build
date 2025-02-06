@@ -1,0 +1,21 @@
+{
+  "name": "@arianrhodsandlot/retroarch-emscripten-build",
+  "version": "1.20.1",
+  "description": "Contains RetroArch builds for emscripten.",
+  "main": "index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arianrhodsandlot/retroarch-emscripten-build.git"
+  },
+  "scripts": {
+    "update-build": "python update.py",
+    "test": "node test/index.mjs"
+  },
+  "type": "module",
+  "author": "arianrhodsandlot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arianrhodsandlot/retroarch-emscripten-build/issues"
+  },
+  "homepage": "https://github.com/arianrhodsandlot/retroarch-emscripten-build#readme"
+}
