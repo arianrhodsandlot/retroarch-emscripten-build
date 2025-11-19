@@ -54,7 +54,11 @@ def main():
             base, ext = os.path.splitext(name)
             if ext == ".js":
                 wasm = os.path.join("retroarch", base + ".wasm")
-                if not os.path.isfile(wasm):
+                if os.path.isfile(wasm):
+                    subprocess.check_output(["zip", "-j", os.path.join("retroarch", base + ".zip"), path, wasm])
+                    os.remove(path)
+                    os.remove(wasm)
+                else:
                     os.remove(path)
             elif not ext == ".wasm":
                 os.remove(path)

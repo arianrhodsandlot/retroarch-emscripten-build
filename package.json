@@ -1,6 +1,6 @@
 {
   "name": "@arianrhodsandlot/retroarch-emscripten-build",
-  "version": "1.22.0",
+  "version": "1.22.2",
   "description": "Contains RetroArch builds for emscripten.",
   "main": "index.mjs",
   "repository": {
