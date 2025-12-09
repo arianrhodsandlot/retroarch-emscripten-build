@@ -8,7 +8,7 @@
     "url": "git+https://github.com/arianrhodsandlot/retroarch-emscripten-build.git"
   },
   "scripts": {
-    "update-build": "python update.py",
+    "update-build": "python3 update.py",
     "test": "node test/index.mjs"
   },
   "type": "module",
